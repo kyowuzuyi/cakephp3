@@ -26,3 +26,332 @@ Stack Trace:
 #5 {main}
 
 
+2016-06-25 07:19:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Person could not be found.
+Exception Attributes: array (
+  'class' => 'Person',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/person/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-06-25 07:19:36 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Person could not be found.
+Exception Attributes: array (
+  'class' => 'Person',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/person/add/
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-06-25 07:19:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Person could not be found.
+Exception Attributes: array (
+  'class' => 'Person',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/person/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-06-25 07:20:29 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Person could not be found.
+Exception Attributes: array (
+  'class' => 'Person',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /cakephp/person/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-06-25 07:20:45 Error: [Cake\Controller\Exception\MissingActionException] Action PersonController::add() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PersonController',
+  'action' => 'add',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/person/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonController))
+#2 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-06-25 07:23:38 Error: [Cake\Controller\Exception\MissingActionException] Action PersonsController::add() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PersonsController',
+  'action' => 'add',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/persons/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#2 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-06-25 07:25:14 Error: Fatal Error (4): syntax error, unexpected '}' in [C:\xampp\htdocs\cakephp\src\Controller\PersonsController.php, line 18]
+Request URL: /cakephp/persons/add
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-06-25 07:25:14 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '}'
+Request URL: /cakephp/persons/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 18)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-06-25 07:25:57 Error: [Cake\Controller\Exception\MissingActionException] Action PersonsController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PersonsController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/persons
+Referer URL: http://localhost/cakephp/persons/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#2 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-06-25 07:26:01 Error: [Cake\Controller\Exception\MissingActionException] Action PersonsController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PersonsController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/persons
+Referer URL: http://localhost/cakephp/persons/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#2 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-06-25 07:26:11 Error: [Cake\Controller\Exception\MissingActionException] Action PersonsController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PersonsController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/persons
+Referer URL: http://localhost/cakephp/persons/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#2 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-06-25 07:26:36 Error: [Cake\Controller\Exception\MissingActionException] Action PersonsController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PersonsController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/persons
+Referer URL: http://localhost/cakephp/persons/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#2 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-06-25 07:27:00 Error: [Cake\View\Exception\MissingTemplateException] Template file "Persons\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Persons\\index.ctp',
+)
+Request URL: /cakephp/persons
+Referer URL: http://localhost/cakephp/persons/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#4 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-06-25 07:28:22 Error: [Cake\View\Exception\MissingTemplateException] Template file "Persons\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Persons\\index.ctp',
+)
+Request URL: /cakephp/persons
+Referer URL: http://localhost/cakephp/persons/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(584): Cake\View\View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#4 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2016-06-25 07:31:21 Warning: Warning (2): Invalid argument supplied for foreach() in [C:\xampp\htdocs\cakephp\src\Template\Persons\index.ctp, line 13]
+Request URL: /cakephp/persons
+Referer URL: http://localhost/cakephp/persons/add
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Template\Persons\index.ctp, line 13
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 992
+Cake\View\View::_render() - CORE\src\View\View.php, line 952
+Cake\View\View::render() - CORE\src\View\View.php, line 587
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-06-25 07:33:04 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [C:\xampp\htdocs\cakephp\src\Controller\PersonsController.php, line 15]
+Request URL: /cakephp/persons
+Referer URL: http://localhost/cakephp/persons/add
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 215
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-06-25 07:33:04 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /cakephp/persons
+Referer URL: http://localhost/cakephp/persons/add
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 15)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-06-25 07:54:16 Error: [Cake\Controller\Exception\MissingActionException] Action PersonsController::test() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PersonsController',
+  'action' => 'test',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/persons/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#2 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-06-25 07:57:37 Error: [Cake\Controller\Exception\MissingActionException] Action PersonsController::test() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PersonsController',
+  'action' => 'test',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/persons/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#2 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-06-25 07:57:45 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "persons"
+Request URL: /cakephp/persons/delete/5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1202): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\cakephp\src\Controller\PersonsController.php(38): Cake\ORM\Table->get('5')
+#2 [internal function]: App\Controller\PersonsController->delete('5')
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#6 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-06-25 07:58:50 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "persons"
+Request URL: /cakephp/persons/delete/5
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\ORM\Table.php(1202): Cake\ORM\Query->firstOrFail()
+#1 C:\xampp\htdocs\cakephp\src\Controller\PersonsController.php(38): Cake\ORM\Table->get('5')
+#2 [internal function]: App\Controller\PersonsController->delete('5')
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#6 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-06-25 07:59:00 Error: [Cake\Controller\Exception\MissingActionException] Action PersonsController::test() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'PersonsController',
+  'action' => 'test',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/persons/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#2 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2016-06-25 07:59:32 Error: [Cake\View\Exception\MissingLayoutException] Layout file "Layout\default.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layout\\default.ctp',
+)
+Request URL: /cakephp/persons/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(615): Cake\View\View->_getLayoutFileName('default')
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->renderLayout('', 'default')
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#5 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-06-25 08:00:04 Error: [Cake\View\Exception\MissingLayoutException] Layout file "Layout\default.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layout\\default.ctp',
+)
+Request URL: /cakephp/persons/test
+Stack Trace:
+#0 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(615): Cake\View\View->_getLayoutFileName('default')
+#1 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->renderLayout('', 'default')
+#2 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(611): Cake\View\View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#4 C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\PersonsController))
+#5 C:\xampp\htdocs\cakephp\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
